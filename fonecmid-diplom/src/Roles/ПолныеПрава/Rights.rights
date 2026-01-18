@@ -2204,13 +2204,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента</name>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Report.ИспользуемыеВнешниеРесурсы</name>
 		<right>
 			<name>Use</name>

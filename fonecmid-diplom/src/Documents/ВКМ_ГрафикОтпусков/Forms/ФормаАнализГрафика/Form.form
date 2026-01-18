@@ -238,6 +238,63 @@
     <edit>
       <common>true</common>
     </edit>
+    <columns>
+      <name>Сотрудник</name>
+      <title>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </title>
+      <id>1</id>
+      <valueType>
+        <types>CatalogRef.Пользователи</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ДатаНачала</name>
+      <title>
+        <key>ru</key>
+        <value>Дата начала</value>
+      </title>
+      <id>2</id>
+      <valueType>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ДатаОкончания</name>
+      <title>
+        <key>ru</key>
+        <value>Дата окончания</value>
+      </title>
+      <id>3</id>
+      <valueType>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <commandInterface>
     <navigationPanel/>

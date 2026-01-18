@@ -10462,13 +10462,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_ОбслуживаниеКлиентов</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>CommonCommand.Обсуждения</name>
 		<right>
 			<name>View</name>
@@ -10879,6 +10872,14 @@
 		</right>
 		<right>
 			<name>EventLog</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ThinClient</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>WebClient</name>
 			<value>false</value>
 		</right>
 		<right>
